@@ -4,6 +4,6 @@ import App from './components/App';
 import './css/main.scss';
 
 ReactDOM.render(
-  <App name='Jorge' />,
+  <App />,
   document.getElementById('app')
 );
