@@ -1,0 +1,40 @@
+{
+  "name": "footywatch",
+  "version": "1.0.0",
+  "description": "Lookup football league tables and upcoming games",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --port $PORT --host $IP --content-base build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgroenke24/FootyWatch.git"
+  },
+  "author": "Jorge Groenke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgroenke24/FootyWatch/issues"
+  },
+  "homepage": "https://github.com/jgroenke24/FootyWatch#readme",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
+    "dotenv-webpack": "^1.5.7",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.4",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
